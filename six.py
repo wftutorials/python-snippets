@@ -14,6 +14,8 @@ treasureItem = "gold"
 counter = 10
 numbersObj = [1, 2, 3]
 numbersOtherObj = [1, 2, 3]
+barName = "Harrys Bar"
+barSite = "PortofSpain"
 
 
 print(number == 4)
@@ -50,13 +52,15 @@ elif treasureItem in treasureChest:
     print("you have silver")
 
 if counter == 4:
-    print("counter = 4")
+    print("counter = 4", "- Is counter 4")
 elif counter == 5:
-    print("counter = 5")
+    print("counter = 5", "- Is counter 5")
 else:
     print("Counter is whatever it is")
 
-print(not isDogFake)
+print(not isDogFake, "- is dog fake")
 
-print(numbersObj == numbersOtherObj)
-print(numbersObj is numbersOtherObj)
+print(numbersObj == numbersOtherObj, "-Check equality")
+print(numbersObj is numbersOtherObj, "-Is on numbers")
+
+print(barName is barSite, "- Bar info")
