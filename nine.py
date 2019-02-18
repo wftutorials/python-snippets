@@ -46,3 +46,6 @@ prettyDog.set_bark("roof roof roof")
 print(prettyDog.make_noise())
 prettyDog.set_age(3)
 print("dog age " + str(prettyDog.calcuate_human_age()))
+
+normal_dog = Dog()
+print(normal_dog.make_noise())
