@@ -1,12 +1,11 @@
 can_talk = True
 responses = {
-    "hello, hi, sup": "Hey you. Whats up?",
+    "hello,hi,sup": "Hey you. Whats up?",
     "bye, goodbye, later, ltr": "Alrite, Later.",
     "name, title": "Simple Chat Bot",
     "age": "Im new",
+    "exit,close": "Closing program"
 }
-
-question = "good bye"
 
 
 def check_matches(chat_key, user_input):
@@ -15,7 +14,7 @@ def check_matches(chat_key, user_input):
     counter = 0
     for match in matches:
         for word in question_array:
-            if set(word.lower()) == set(match.lower()):
+            if set(word.strip().lower()) == set(match.strip().lower()):
                 counter = counter + 1
     return counter
 
