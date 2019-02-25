@@ -2,7 +2,7 @@
 
 Some examples on using python. I created this repository to learn  or refresh myself on the Python language. You can view the blog post on it at - https://wftutorials.blog/2019/02/12/fun-with-python-part-1/
 
-## Examples
+## Learning Examples
 
 [**first.py**](https://github.com/wyntonfranklin/funwithpy/blob/master/first.py)
 
@@ -59,3 +59,27 @@ Sample file for special import
 **[fourteen.py](https://github.com/wyntonfranklin/funwithpy/blob/master/fourteen.py)**
 
 Sample file for special import
+
+
+
+## Working Examples
+
+**[multiply.py](https://github.com/wyntonfranklin/funwithpy/blob/master/multiply.py)**
+
+Requests two inputs from the user and multiplies them.
+
+**[bank_account.py](https://github.com/wyntonfranklin/funwithpy/blob/master/bank_account.py)**
+
+Simulates some banking account features.
+
+**[simple_chat.py](https://github.com/wyntonfranklin/funwithpy/blob/master/simple_chat.py)**
+
+A simple chat application.
+
+[**note_book.py**](https://github.com/wyntonfranklin/funwithpy/blob/master/note_book.py)
+
+Writes a file based on input line by line.
+
+[**websites_title.py**](https://github.com/wyntonfranklin/funwithpy/blob/master/websites_title.py)
+
+Gets the title of a inputed website.
